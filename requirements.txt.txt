@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+seaborn
+tensorflow>=2.15.0
+gymnasium
+scikit-learn
+yfinance

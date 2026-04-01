@@ -1,8 +1,9 @@
-numpy
-pandas
-matplotlib
-seaborn
-tensorflow>=2.15.0
-gymnasium
-scikit-learn
-yfinance
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.0
+seaborn==0.13.0
+scikit-learn==1.4.0
+tensorflow==2.15.0
+gymnasium==0.29.1
+ta-lib==0.6.8
+jupyter==1.0.0

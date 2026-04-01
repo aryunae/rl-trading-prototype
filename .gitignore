@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+venv*/
+env/
+.venv/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Результаты
+results/*.csv
+!results/images/
+!results/images/*.png
+
+# OS
+.DS_Store
+Thumbs.db

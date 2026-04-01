@@ -22,7 +22,8 @@ pip install -r requirements.txt
 
 # Запустить Jupyter
 jupyter notebook notebooks/4_q_learning_for_trading.ipynb
-Структура
+
+## Структура
 ├── trading_env.py
 ├── notebooks/
 │   └── 4_q_learning_for_trading.ipynb
@@ -34,14 +35,6 @@ jupyter notebook notebooks/4_q_learning_for_trading.ipynb
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
-## Графики
-
-Сравнение доходности агента и рынка
-https://results/images/performance.png
-
-Распределение разницы доходности
-https://results/images/difference.png
 
 ### Параметры обучения
 Параметр	Значение
@@ -140,12 +133,11 @@ cat > docs/experiment.md << 'EOF'
 
 | Функционал | Запланировано | Реализовано |
 |------------|---------------|-------------|
-| Торговая среда Gymnasium | ✅ | ✅ |
-| DDQN агент | ✅ | ✅ |
-| Акции AAPL | ✅ | ✅ |
-| Комиссии за сделки | ✅ | ✅ |
-| Сравнение с Buy & Hold | ✅ | ✅ |
-| Визуализация результатов | ✅ | ✅ |
-| Технические индикаторы (TA-Lib) | ✅ | ✅ |
-| Поддержка нескольких акций | ❌ | ❌ |
-| Train/test split | ❌ | ❌ |
+| Торговая среда Gymnasium | Да | Да |
+| DDQN агент | Да | Да |
+| Акции AAPL | Да | Да |
+| Комиссии за сделки | Да | Да |
+| Сравнение с Buy & Hold | Да | Да |
+| Визуализация результатов | Да | Да |
+| Технические индикаторы (TA-Lib) | Да | Да |
+

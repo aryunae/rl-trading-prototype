@@ -35,15 +35,15 @@ jupyter notebook notebooks/4_q_learning_for_trading.ipynb
 ├── README.md
 └── .gitignore
 
-Графики
+## Графики
 
-Графики
 Сравнение доходности агента и рынка
 https://results/images/performance.png
 
 Распределение разницы доходности
 https://results/images/difference.png
-Параметры обучения
+
+### Параметры обучения
 Параметр	Значение
 Эпизоды	1000
 Шагов в эпизоде	252 (1 год)

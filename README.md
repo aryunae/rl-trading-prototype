@@ -36,7 +36,8 @@ jupyter notebook notebooks/4_q_learning_for_trading.ipynb
 └── .gitignore
 
 Графики
-📈 Графики
+
+Графики
 Сравнение доходности агента и рынка
 https://results/images/performance.png
 
@@ -52,7 +53,7 @@ Learning rate	0.0001
 Gamma	0.99
 Batch size	4096
 Hidden layers	256, 256
-[200~ Источники
+[200~ Источники
 Основано на работе Tito Ingargiola и Stefan Jansen. Лицензия MIT.
 EOF~
 
